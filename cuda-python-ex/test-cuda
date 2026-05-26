@@ -1,0 +1,18 @@
+>>> import numba
+>>> print(numba.__version__)
+0.65.1
+
+
+>>> from numba import cuda
+>>> print(cuda.detect())
+Found 1 CUDA devices
+id 0    b'NVIDIA GeForce RTX 5080 Laptop GPU'                              [SUPPORTED]
+                      Compute Capability: 12.0
+                           PCI Device ID: 0
+                              PCI Bus ID: 2
+                                    UUID: GPU-2aceb65c-cfb0-1afc-20c5-08482c80ef69
+                                Watchdog: Enabled
+             FP32/FP64 Performance Ratio: 64
+Summary:
+        1/1 devices are supported
+True
