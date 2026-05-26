@@ -15,7 +15,7 @@ Result a + b :  [  0.  13.  26.  39.  52.  65.  78.  91. 104. 117.]
 
 | Requirement | Notes |
 |---|---|
-| Linux (x86-64) | Tested on Ubuntu 24.04+ / WSL2 |
+| Linux (x86-64) | Tested on Ubuntu 26.04+ / WSL2 |
 | NVIDIA GPU | Driver ≥ 525, CUDA capability ≥ 5.0 |
 | [uv](https://docs.astral.sh/uv/) | `curl -LsSf https://astral.sh/uv/install.sh \| sh` |
 
